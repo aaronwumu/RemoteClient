@@ -1,0 +1,75 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="TitleStyle">  
+		<item name="android:textSize">18sp</item>  
+		<item name="android:textColor">#ec9237</item>  
+	</style>  
+	
+		<style name="TitleStyle02">  
+		<item name="android:textSize">16sp</item>  
+		<item name="android:textColor">#f5b537</item>  
+		<item name="android:shadowColor">#5A5A5A</item> 
+		<item name="android:shadowDx">2</item> 
+		<item name="android:shadowDy">2</item> 
+		<item name="android:shadowRadius">1</item>
+	</style> 
+	
+	<style name="TitleStyle03">  
+		<item name="android:textSize">16sp</item>  
+		<item name="android:textColor">#ffffff</item>  
+		<item name="android:shadowColor">#5A5A5A</item> 
+		<item name="android:shadowDx">2</item> 
+		<item name="android:shadowDy">2</item> 
+		<item name="android:shadowRadius">1</item>
+	</style> 
+	
+	<style name="LinkStyle">  
+	<item name="android:textSize">18sp</item>  
+	<item name="android:textColor">#ec0032</item>  
+	<item name="android:fromAlpha">0.0</item>  
+	<item name="android:toAlpha">0.0</item>  
+	</style>  
+	
+	<style name="AudioFileInfoOverlayText"> 
+		<item name="android:paddingLeft">0px</item> 
+		<item name="android:paddingBottom">0px</item> 
+		<item name="android:textColor">#ffffffff</item> 
+		<item name="android:textSize">16px</item> 
+		<item name="android:shadowColor">#2E2E2E</item> 
+		<item name="android:shadowDx">2</item> 
+		<item name="android:shadowDy">2</item> 
+		<item name="android:shadowRadius">2</item>
+	</style>
+	
+	<style name="FileTitleText"> 
+		<item name="android:paddingLeft">0px</item> 
+		<item name="android:paddingBottom">0px</item> 
+		<item name="android:textColor">#ffffffff</item> 
+		<item name="android:textSize">13px</item> 
+		<item name="android:shadowColor">#3E3E3E</item> 
+		<item name="android:shadowDx">2</item> 
+		<item name="android:shadowDy">2</item> 
+		<item name="android:shadowRadius">2</item>
+	</style>
+	
+	<style name="scrollbarstyle">
+		<item name="android:scrollbarSize">100dip</item> 
+	</style>
+</resources>

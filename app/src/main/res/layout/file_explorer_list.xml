@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:visibility="gone"
+	android:id="@+id/relativeLayoutFileShowList" >
+    <ListView 
+	    android:id="@+id/listViewFileExplorer" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent" 
+	    android:scrollbarThumbVertical="@drawable/img_scrollbar_thumb" 
+	    android:scrollbarTrackVertical="@drawable/img_scrollbar_track" 
+	    style="@style/scrollbarstyle">
+    </ListView>
+</RelativeLayout>
